@@ -1,0 +1,171 @@
+.App {
+  min-height: 100vh;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 20px;
+  z-index: 1020;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.75em;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.custom-textarea::placeholder {
+  white-space: pre-wrap !important;
+}
+.text-primary {
+  color: #003b95 !important;
+}
+
+.btn-primary {
+  background-color: #003b95;
+  border-color: #003b95;
+}
+
+.bg-primary{
+  background-color: #003b95 !important;
+}
+.btn-primary:hover {
+  background-color: #00296b;
+  border-color: #001f4d;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #003b95 0%, #00bcd4 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #003b95;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+}
+
+
+/* Existing styles... */
+
+/* Tour Card Styles */
+.tour-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.tour-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.tour-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.tour-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.4;
+}
+
+/* Feature Card Styles */
+.feature-card {
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Destination Card Styles */
+.destination-card {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.destination-card:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Section Spacing */
+section {
+  position: relative;
+}
+
+/* Carousel Improvements */
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Button Styles */
+.btn {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .tour-card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Loading Animation */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
