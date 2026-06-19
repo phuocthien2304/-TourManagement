@@ -2,7 +2,7 @@
 
 Đây là một trang web đặt tour du lịch được phát triển cho một công ty lữ hành. Dự án được xây dựng theo nhóm gồm 3 thành viên và bao gồm các luồng nghiệp vụ hoàn chỉnh cho cả khách hàng và quản trị viên, tích hợp cả thông báo theo thời gian thực và một hệ thống gợi ý Tour thông minh bằng AI.
 
-**Link Github:** [https://github.com/MinhPham204/TourManagement](https://github.com/MinhPham204/TourManagement)
+**Link Github:** [https://github.com/phuocthien2304/-TourManagement](https://github.com/phuocthien2304/-TourManagement)
 
 ## Các tính năng chính
 
